@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.937 sec <<< FAILURE!
+loginTest(com.qa.test.WebShopLoginTest)  Time elapsed: 11.868 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...rrors and try again.[]
+The credentials pro...> but was:<...rrors and try again.[]
+The credentials pro...>
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at junit.framework.Assert.assertEquals(Assert.java:91)
+	at com.qa.pages.WebShopLogin.logoutWebshop(WebShopLogin.java:54)
+	at com.qa.test.WebShopLoginTest.loginTest(WebShopLoginTest.java:41)
+

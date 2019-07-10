@@ -38,6 +38,8 @@ public  WebShopLoginTest() {
 	  home.loginpg();
 	  
 	  login.loginWebshop(username, password);
+	  login.logoutWebshop();
+	  
 	  
   }
 
@@ -51,7 +53,9 @@ public  WebShopLoginTest() {
   @AfterMethod
   public void afterMethod() {
 	  
-	  //driver.close();
+	  
+	  
+	  driver.close();
   }
 
 }

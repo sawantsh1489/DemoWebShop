@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test name="Test One">
+    <parameter name="test-name" value="Test One"/>
+    <classes>
+      <class name="com.qa.test.WebShopHomeTest" />
+    </classes>
+  </test>
+  <test name="Test Two">
+    <parameter name="test-name" value="Test Two"/>
+    <classes>
+      <class name="com.qa.test.WebShopLoginTest" />
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

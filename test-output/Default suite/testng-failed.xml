@@ -5,7 +5,7 @@
     <classes>
       <class name="com.qa.test.WebShopLoginTest">
         <methods>
-          <include name="loginTest" invocation-numbers="0"/>
+          <include name="loginTest" invocation-numbers="1"/>
           <include name="setup"/>
           <include name="afterMethod"/>
         </methods>

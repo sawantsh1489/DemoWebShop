@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="test-name" value="Test Two"/>
+  <test name="Test Two(failed)">
+    <parameter name="test-name" value="Test Two"/>
+    <classes>
+      <class name="com.qa.test.WebShopHomeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.test.WebShopHomeTest -->
+      <class name="com.qa.test.WebShopLoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="1"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.qa.test.WebShopLoginTest -->
+    </classes>
+  </test> <!-- Test Two(failed) -->
+</suite> <!-- Failed suite [Suite] -->

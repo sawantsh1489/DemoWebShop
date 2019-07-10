@@ -32,7 +32,7 @@ public class WebShopHomeTest extends TestBase {
 	@AfterMethod
 	public void teardown() {
 		
-		//driver.close();
+		driver.close();
 	}
 
 }
